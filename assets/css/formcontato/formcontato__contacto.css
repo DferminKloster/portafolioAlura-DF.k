@@ -1,0 +1,20 @@
+.formcontato__contacto{
+    padding: 1rem;
+    color: var(--color-letras);
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 900px) {
+    .formcontato__contacto{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1440px) {
+    .formcontato__contacto{
+        max-width: 1400px;
+        margin: auto;
+    }
+}
